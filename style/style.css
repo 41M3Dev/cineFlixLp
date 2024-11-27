@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mountains+of+Christmas:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nouveautés{
+    background-color: #fff;
+    height: 100vh;
+}
+
+#hero-section h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation-duration: 2s;
+}
+#hero-section h2{
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    animation-duration: 2s;
+}
+
+.header-tittle{
+    backdrop-filter: blur(2.5px);
+}
+.mt-6{
+    margin-top: 35vh !important;
+}
+.input-group{
+    width: 250px !important;
+}
+.row{
+    justify-content: center !important;
+}
+
+.main-banner {
+    background-image: url(../image/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 268px;
+
+}
+
+.main-banner .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.main-banner .border-button {
+    margin-right: 15px;
+}
+
+
+#loader{
+    margin: auto;
+    display: block;
+    width: 450px;
+    height: 450px;
+}
+
+@-webkit-keyframes shuriken{
+    0% {-webkit-transform: rotateZ(0deg);}
+    100% {-webkit-transform: rotateZ(360deg);}
+}
+
+#shuriken{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    -webkit-transform-origin: center;
+    -webkit-animation: shuriken 2s linear infinite;
+    z-index: 10;
+}
+
+.top{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 70px solid #95a5a6;
+}
+
+.topInner{
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 70px solid #7f8c8d;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 70px solid #95a5a6;
+}
+
+.bottomInner{
+    position: absolute;
+    top: -70px;
+    left: 0px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 70px solid #7f8c8d;
+    -webkit-transform: rotate(180deg);
+}
+
+.right{
+    position: absolute;
+    top: 65px;
+    right: 3px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 70px solid #95a5a6;
+    -webkit-transform: rotate(90deg);
+}
+
+.rightInner{
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 70px solid #7f8c8d;
+}
+
+.left{
+    position: absolute;
+    top: 65px;
+    left: 4px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 70px solid #95a5a6;
+    -webkit-transform: rotate(-90deg);
+}
+
+.leftInner{
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 1px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 70px solid #7f8c8d;
+}
+
+.middle{
+    position: absolute;
+    top: 58px;
+    left: 58px;
+    display: block;
+    width: 83px;
+    height: 83px;
+    background: linear-gradient( to top left, #7f8c8d, #95a5a6);
+    border-radius: 50px;
+    border: solid 1px #333;
+}
+
+.middleInner{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    display: block;
+    width: 52px;
+    height: 52px;
+    background: #7f8c8d;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #333 inset;
+}
+
+#shadow{
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    height: 70px;
+    background: rgba(33,47,61,0.7);
+    box-shadow: 0 0 100px #212f3d,
+    0 0 50px #212f3d;
+    border-radius: 80px;
+    z-index: 2;
+}
+
+
+.main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e7691e;
+    border: 1px solid #e7691e   ;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+    .main-button a:after {
+        width: 78%;
+        height: 2px;
+        background-color: #fff;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+.main-button a:hover {
+    background-color: #fff;
+    color: #e7691e;
+    border: 1px solid #fff;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #hero-section{
+        background-image: none ;
+    }
+}

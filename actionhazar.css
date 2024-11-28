@@ -635,3 +635,72 @@ footer .container {
         height: 30vh; /* Réduit encore la hauteur pour les petits écrans */
     }
 }
+/* Conteneur commun */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Persona Section */
+.persona-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.persona-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.persona-info {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.persona-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.persona-details {
+    flex: 1;
+}
+
+.persona-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.persona-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+}

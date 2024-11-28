@@ -315,7 +315,7 @@ h2 {
 
 .carousel-container {
     display: flex;
-    animation: scrollReviews 15s infinite; /* Animation pour faire défiler les avis */
+    animation: scrollReviews 20s infinite; /* Animation pour faire défiler les avis */
     margin-top: 5%;
 }
 

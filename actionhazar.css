@@ -1,6 +1,8 @@
 body{
     font-family: 'Agbalumo', sans-serif;
+    background: linear-gradient(20deg, yellow, blue, red); /* Dégradé avec trois couleurs et un angle de 45° */
 }
+
 .deuxbouton{
     display: inline-block;
     margin-right: -410%;
@@ -8,6 +10,13 @@ body{
 }
 .logocineflix{
     width: 4%;
+}.navbar {
+     background: linear-gradient(20deg, yellow, blue, red); /* Dégradé avec trois couleurs et un angle de 45° */
+     padding: 10px 0;
+ }
+
+.nav-link{
+    color: white;
 }
 .deslogo{
     background-image: url('img/fondvoiture.jpg'); /* Chemin relatif vers l'image */
@@ -20,19 +29,19 @@ body{
 }
 h1 {
     color: white;
-    font-size: 25px;
-    margin-left: 39%;
+    font-size: 35px;
+    margin-left: 38%;
     margin-top: -38%;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Ombre légère autour du texte */
 }
 .filmpop {
     color: white;
-    font-size: 16px;
-    margin-left: 35%;
+    font-size: 23px;
+    margin-left: 32%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre légère pour le texte sous le titre */
 }
 .liensreservez{
-    margin-left: 36.5%;
+    margin-left: 38%;
     font-size: 25px;
     color: white;
     padding-left: 0.5%;
@@ -44,7 +53,8 @@ h1 {
 }
 hr{
     height: 5px; /* Augmente l'épaisseur de la ligne */
-    background-color: blue; /* Change la couleur de la ligne */
+    background-color:  #D3D3D3; /* Change la couleur de la ligne */
+    opacity: 10;
     border: none; /* Supprime les bordures par défaut */
     margin: 20px 0; /* Ajoute un espace au-dessus et en dessous */
 }
@@ -67,7 +77,7 @@ hr{
 /* Changer la couleur des icônes de navigation */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: blue; /* Icônes de navigation bleues */
+    background-color: black; /* Icônes de navigation bleues */
 }
 
 /* Positionner les boutons de navigation */
@@ -78,7 +88,6 @@ hr{
     top: 50%; /* Centrer verticalement les boutons */
     transform: translateY(-50%); /* Assurer que les boutons sont bien centrés */
     right: 700px;
-
 }
 h4{
     margin-left: -80%;
@@ -112,7 +121,7 @@ h4{
     text-align: center;
     font-size: 1.8rem;
     margin: 20px 0;
-    color: black;
+    color: white;
 }
 
 /* Conteneur principal */
@@ -127,7 +136,7 @@ h4{
 
 /* Colonnes */
 .column {
-    color: blue;
+    color: white;
     flex: 1;
     font-size: 1.2em;
     margin-left: 1%;
@@ -135,8 +144,7 @@ h4{
     max-width: 48%; /* Limite la largeur des colonnes */
     line-height: 1.6; /* Améliore la lisibilité */
     padding: 10px;    /* Espace entre le texte et le bord */
-    border: 2px dashed #000; /* Contour noir de 2 pixels */
-    text-decoration: underline black;
+    border: 5px dashed white; /* Contour noir de 2 pixels */
     word-spacing: 1px;
 }
 .column strong{
@@ -156,7 +164,7 @@ h4{
 /* Style du titre */
 .choisir-cineflix h2 {
     font-size: 2.3rem;
-    color: blue;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -199,7 +207,6 @@ h4{
     justify-content: space-between;
     gap: 30px;
     padding: 130px;
-    background-color: #f4f4f4;
 }
 
 /* Style des colonnes */
@@ -210,7 +217,7 @@ h4{
     padding: 20px;
     margin-top: -8%;
     margin-bottom: 10%;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -220,7 +227,7 @@ h4{
     max-width: 48%;  /* Vous pouvez ajuster la largeur de la colonne de téléphone */
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-left: 50%;
     margin-top: -30%;
@@ -229,7 +236,7 @@ h4{
 /* Titre */
 h2 {
     text-align: center;
-    color: blue;
+    color: white;
 }
 
 /* Formulaire d'inscription */
@@ -308,7 +315,7 @@ h2 {
 
 .carousel-container {
     display: flex;
-    animation: scrollReviews 9s infinite; /* Animation pour faire défiler les avis */
+    animation: scrollReviews 15s infinite; /* Animation pour faire défiler les avis */
     margin-top: 5%;
 }
 
@@ -344,11 +351,10 @@ h2 {
 
 /* Style du footer */
 footer {
-    background-color: #f8f9fa;  /* Couleur de fond clair */
+    background: linear-gradient(20deg, yellow, blue,); /* Dégradé avec trois couleurs et un angle de 45° */
     padding: 20px 0;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    border-top: 1px solid #ddd; /* Bordure pour séparer du contenu principal */
 }
 
 footer .container {
@@ -371,18 +377,18 @@ footer .container {
 
 .footer-links a {
     text-decoration: none;
-    color: #6c757d;  /* Couleur des liens */
+    color: white;  /* Couleur des liens */
     font-size: 0.875rem;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #007bff;  /* Couleur au survol */
+    color: black;  /* Couleur au survol */
 }
 
 .footer-text {
     margin-top: 15px;
-    color: #6c757d;  /* Couleur du texte */
+    color: white;  /* Couleur du texte */
     font-size: 0.875rem;
 }
 /* Container principal pour les trois cartes */

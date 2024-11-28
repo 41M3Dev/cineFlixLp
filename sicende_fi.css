@@ -1,0 +1,91 @@
+body{
+    background-color: #213F44;
+}
+
+*{
+    color: white;
+    margin: 0;
+    padding: auto;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
+em{
+    text-shadow: 1px 1px 2px rgb(255, 230, 0), 0 0 1em rgb(255, 0, 255), 0 0 0.2em blue;
+}
+
+/*CSS flou sur l'image d'intro*/
+#intro p{
+    font-weight: bold;
+}
+
+
+.flou{
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.flou p, h1{
+    color: black;
+}
+
+.flou p{
+    font-weight: bold;
+}
+
+/*CSS image*/
+
+#intro{
+    background: url(./img_science_fiction/paysage_fiction.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.rounded-5, .rounded-circle, .rounded-circle-centre{
+    height: auto;
+    width: 20vh;
+
+}
+
+.rond{
+    border-radius: 60px;
+}
+
+.rounded-circle-centre{
+    border-radius: 60px;
+}
+/*CSS titres soulignées*/
+#souligne{
+    font-size: 2em;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#soulignepetit{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+/*CSS Bouton choisir*/
+.btn-group{
+    color: black;
+}
+
+
+/*CSS texte catégorie*/
+.card-text{
+    color: black;
+}
+
+.card-text-benef{
+    color: orange;
+}

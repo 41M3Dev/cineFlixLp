@@ -5,8 +5,8 @@ body{
 
 .deuxbouton{
     display: inline-block;
-    margin-right: -410%;
-    margin-left: 410%;
+    margin-right: -300%;
+    margin-left: 300%;
 }
 .logocineflix{
     width: 4%;

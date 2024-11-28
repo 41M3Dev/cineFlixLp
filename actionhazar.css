@@ -398,7 +398,9 @@ footer .container {
     gap: 20px;
     margin-top: 50px;
 }
-
+.pricing-card{
+    background-color: #198754;
+}
 /* Styles communs pour toutes les cartes */
 .pricing-card {
     width: 250px;

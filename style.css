@@ -1,0 +1,146 @@
+.ContainerJ1 { 
+    padding: 28vh;
+    background-image: url(https://img.freepik.com/photos-gratuite/fond-noel-design-flocon-neige-lumieres-bokeh_1048-13472.jpg?ga=GA1.1.1776961976.1729670572&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+.champ{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/26/19/45/red-2892235_1280.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+  }
+    
+.containerof {
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/06/15/52/cookies-5809181_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 112, 176);
+}
+
+h2 {
+    
+    color: rgb(0, 112, 176);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+ h3{
+    font-size: 25px;
+    color: rgb(0, 112, 176); 
+    
+}
+
+
+h6 {
+    color: rgb(0, 112, 176);
+    font-size: 21px;
+    padding-top: 1em;
+}
+
+.btn  {
+    background-image: url(https://t3.ftcdn.net/jpg/10/17/49/40/240_F_1017494062_aVS4GulRXs7DUjuIsYyNOV3ad0CvXUlZ.jpg);
+    background-size: cover;
+    background-position: center;   
+    text-align: center;
+    display:flex ;
+    justify-content: center;
+    margin-left: 1rem;
+    width: calc(100% - 30px);
+    height: calc(20% - 20px);
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.card {
+    box-shadow:
+    0 0 10vw  0vw #ff3b3b,   
+    0 0   2vw  0.4vw #fb0404,
+    
+    inset 0 0 .5vw  .2vw #ff3838,
+    inset 0 0 0.2vw  0.2vw #ff3131,
+    inset 0 0 .25vw  0.2vw #fb0404;
+    border-radius: 22px;
+    
+}
+.benefice {
+    text-align: center;
+    padding:20rem;
+}
+
+.btnabo {
+    padding-top: 2px;
+    margin: 10%;
+}
+
+.containerof {
+    width: 100%;
+    height: 100%;
+}
+
+.offresAbo {
+    width: 20%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/94/71/81/240_F_294718149_aIizeIOQuJAK2K79oJ7C0Ck0xTaDTxOu.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+    text-align: center;  
+    box-shadow:
+    0 0 10vw  0vw #ff3b3b,   
+    0 0   2vw  0.4vw #ff3434,
+    
+    inset 0 0 .5vw  .2vw #ff3838,
+    inset 0 0 0.2vw  0.2vw #fd1f1f,
+    inset 0 0 .25vw  0.2vw #fb0404;
+    border-radius: 22px;
+    
+}
+
+.benefice {
+    background-image: url(https://img.freepik.com/photos-gratuite/coffrets-cadeaux-branches-vertes-table_23-2147970629.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    padding: 20%;
+    color: #2b58a6; 
+    
+}
+
+.border-bot {
+    border-bottom: 10px solid white;
+    
+}
+
+#btntext {
+    padding-bottom: 10px;
+    margin-top: 42px;
+}
+
+.filmJ {
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    
+}
+
+.filmstart {
+    background-image: url(https://wallpaper.forfun.com/fetch/49/492b772d1dfed305b84b7ebe967df89e.jpeg?h=900&r=0.5);
+    background-size: cover;
+    background-position: center;
+    
+}
+.Formulaire {
+    background-image: url(https://cdn.pixabay.com/photo/2019/12/09/17/49/merry-4684006_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}

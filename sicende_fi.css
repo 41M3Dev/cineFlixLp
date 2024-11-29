@@ -87,7 +87,7 @@ em{
 }
 
 .card-text-benef{
-    color: orange;
+    color: #ffa500;
 }
 
 /*CSS Footer*/
@@ -130,3 +130,41 @@ h3{
     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
 }
 
+/*CSS barre nav*/
+/* Changer la couleur des icônes de navigation */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Icônes de navigation bleues */
+}
+
+/* Positionner les boutons de navigation */
+.carousel-control-prev{
+    color: white;
+    border-color: white;
+}
+
+h4{
+    margin-left: -80%;
+    color: blue;
+}
+
+.navbar {
+    background: linear-gradient(20deg, yellow, blue, red); /* Dégradé avec trois couleurs et un angle de 45° */
+    padding: 10px 0;
+}
+
+.nav-link{
+   color: white;
+}
+
+.logocineflix{
+    width: 10vh;
+    height: 10vh;
+    margin-right: 35%;
+}
+
+/*CSS lien*/
+a{
+    text-decoration: none;
+    color: #e020e0;
+}

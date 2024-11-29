@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       rel="icon"
       type="image/x-icon"
@@ -30,14 +32,22 @@
     <meta property="og:image" content="" />
 
     <!-- Description de la page -->
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="Plongez dans l'univers du streaming avec CinéFlix : des films et séries pour tous les goûts, accessibles à tout moment. Vivez le cinéma comme jamais auparavant !"
+    />
 
     <!-- Nom du site (facultatif, souvent le nom de ton site) -->
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="CinéFlix" />
 
     <!-- Langue de la page (facultatif) -->
     <meta property="og:locale" content="fr_FR" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Découvrez CinéFlix, votre
+    destination idéale pour regardez vos films/séries. Profitez d'une expérience unique,
+    simple et rapide. Rejoignez-nous dès maintenant !"
+    />
 
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
@@ -51,7 +61,11 @@
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img
+              class="logocineflix"
+              src="/img_science_fiction/logo_cineflix.jpg"
+              alt="Logo Cinéflix"
+            />
             <button
               class="navbar-toggler"
               type="button"
@@ -63,12 +77,11 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="collapse navbar-collapse"
-              id="navbarNavDropdown"
-              style="justify-content: center"
-            >
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                </li>
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -77,18 +90,28 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Genres
+                    Autre Genre
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Romance</a></li>
-                    <li><a class="dropdown-item" href="#">Animé</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Science-Fiction</a>
+                      <a class="dropdown-item" href="actionhazar.html"
+                        >Action</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Romance</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Science-fiction</a>
                     </li>
                     <li><a class="dropdown-item" href="#">Comédie</a></li>
                     <li><a class="dropdown-item" href="#">Horreur</a></li>
                   </ul>
+                </li>
+
+                <li class="nav-item deuxbouton">
+                  <a class="nav-link" href="inscrip.html">Se Connecter</a>
+                </li>
+                <li class="nav-item deuxbouton">
+                  <a class="nav-link" href="inscrip.html">S'inscrire</a>
                 </li>
               </ul>
             </div>
@@ -143,10 +166,14 @@
             </p>
           </div>
           <div class="col-12 col-sm-6 col-md-6">
-            <button type="button" class="btn btn-dark">Connexion</button>
+            <button type="button" class="btn btn-dark">
+              <a href="inscrip.html">Connexion</a>
+            </button>
           </div>
           <div class="col-12 col-sm-6 col-md-6">
-            <button type="button" class="btn btn-dark">Je m'abonne</button>
+            <button type="button" class="btn btn-dark">
+              <a href="inscrip.html">Je m'abonne</a>
+            </button>
           </div>
         </div>
 
@@ -163,6 +190,7 @@
             <div class="row text-center justify-content-center pb-5">
               <div class="col-12 col-sm-6 col-md-3">
                 <img
+                  data-aos="flip-right"
                   class="rounded-5"
                   src="/img_science_fiction/infini_bleu.jpg"
                   alt="logo infini"
@@ -173,6 +201,7 @@
               </div>
               <div class="col-12 col-sm-6 col-md-3">
                 <img
+                  data-aos="flip-right"
                   class="rounded-5"
                   src="/img_science_fiction/avant_premiere.jpg"
                   alt="logo avant premiere"
@@ -181,6 +210,7 @@
               </div>
               <div class="col-12 col-sm-6 col-md-3">
                 <img
+                  data-aos="flip-right"
                   class="rounded-5"
                   src="/img_science_fiction/pas_de_pub.jpg"
                   alt="logo pas de pub"
@@ -189,6 +219,7 @@
               </div>
               <div class="col-12 col-sm-6 col-md-3 pt-4">
                 <img
+                  data-aos="flip-right"
                   class="rounded-5"
                   src="/img_science_fiction/image_resolution_quatrek.jpg"
                   alt="logo resolution 4k"
@@ -294,6 +325,8 @@
                 <div class="row justify-content-center">
                   <div class="col-12 col-sm-6 col-md-3">
                     <img
+                      data-aos="fade-up"
+                      data-aos-duration="300"
                       class="rounded-circle"
                       src="/img_science_fiction/abonnement.jpg"
                       alt="Abonnement basique"
@@ -304,6 +337,8 @@
                   </div>
                   <div class="col-12 col-sm-6 col-md-3">
                     <img
+                      data-aos="fade-up"
+                      data-aos-duration="300"
                       class="rounded-circle"
                       src="/img_science_fiction/abonnement.standart.jpg"
                       alt="Abonnement standart"
@@ -314,6 +349,8 @@
                   </div>
                   <div class="col-12 col-sm-6 col-md-3">
                     <img
+                      data-aos="fade-up"
+                      data-aos-duration="300"
                       class="rounded-circle"
                       src="/img_science_fiction/abonnement_premium.jpg"
                       alt="Abonnement Premium"
@@ -372,7 +409,7 @@
                 <h2 id="souligne">Avis des clients et retours :</h2>
               </div>
               <div class="row pt-4 pb-4 text-center justify-content-between">
-                <div class="col-12 col-sm-6 col-md-5">
+                <div class="col-12 col-sm-6 col-md-5" data-aos="fade-right">
                   <p>⭐⭐⭐⭐⭐</p>
                   <p>
                     Un site parfait, je recommande à 100 % ! Les fonctionnalités
@@ -381,7 +418,7 @@
                     👏
                   </p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-5">
+                <div class="col-12 col-sm-6 col-md-5" data-aos="fade-right">
                   <p>⭐⭐⭐⭐⭐</p>
                   <p>
                     Au top ! Un site super intuitif, beau et efficace. Tout
@@ -402,7 +439,7 @@
               <div class="row justify-content-center">
                 <div
                   class="col-12 col-sm-12 col-md-6"
-                  style="border: 10px solid gold; border-radius: 10px"
+                  style="border: 10px solid #ffa500; border-radius: 10px"
                 >
                   <p>⭐⭐⭐⭐⭐</p>
                   <p>
@@ -582,26 +619,7 @@
                     ></textarea>
                     <label for="floatingTextarea">Comments</label>
                   </div>
-                  <div class="row justify-content-center">
-                    <div class="col-9">
-                      <div class="form-floating">
-                        <select
-                          class="form-select"
-                          id="floatingSelectDisabled"
-                          aria-label="Floating label disabled select example"
-                          disabled
-                        >
-                          <option selected>Open this select menu</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <label for="floatingSelectDisabled"
-                          >Works with selects</label
-                        >
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -619,23 +637,21 @@
                 <div
                   class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a"
                 >
-                  <h3 class="text-muted mb-md-0 mb-5 bold-text">Pepper.</h3>
+                  <h3>CinéFlix</h3>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                   <h6 class="mb-3 mb-lg-4 bold-text"><b>MENU</b></h6>
                   <ul class="list-unstyled">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Portfolio</li>
+                    <li><a href="index.html">Accueil </a></li>
+                    <li><a href="mentionlegale.html">Mentions Légales</a></li>
                   </ul>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                   <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5">
                     <b>ADDRESS</b>
                   </h6>
-                  <p class="mb-1">605, RATAN ICON BUILDING</p>
-                  <p>SEAWOODS SECTOR</p>
+                  <p class="mb-1">3 Rue du Pressoir</p>
+                  <p>Isneauville</p>
                 </div>
               </div>
               <div class="row">
@@ -657,31 +673,20 @@
                     ></span>
                   </p>
                   <small class="rights"
-                    ><span>&#174;</span> Pepper All Rights Reserved.</small
+                    ><span>&#174;</span> CinéFlix All Rights Reserved.</small
                   >
                 </div>
                 <div
                   class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end"
                 >
                   <h6 class="mt-55 mt-2 text-muted bold-text">
-                    <b>ANIRUDH SINGLA</b>
+                    <b>GUERAIN Corinthe</b>
                   </h6>
                   <small>
                     <span
                       ><i class="fa fa-envelope" aria-hidden="true"></i
                     ></span>
-                    anirudh@gmail.com</small
-                  >
-                </div>
-                <div
-                  class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3"
-                >
-                  <h6 class="text-muted bold-text"><b>RISHABH SHEKHAR</b></h6>
-                  <small
-                    ><span
-                      ><i class="fa fa-envelope" aria-hidden="true"></i
-                    ></span>
-                    rishab@gmail.com</small
+                    directeurcineflixh@gmail.com</small
                   >
                 </div>
               </div>
@@ -696,5 +701,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

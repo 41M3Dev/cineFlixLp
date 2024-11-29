@@ -1,5 +1,5 @@
 body{
-    background-color: #213F44;
+    background-color: #0D0D0D;
 }
 
 *{
@@ -66,7 +66,7 @@ em{
 #souligne{
     font-size: 2em;
     text-decoration: underline;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px rgb(136, 3, 141), 0 0 1em rgb(190, 189, 189), 0 0 0.2em rgb(84, 2, 100);
 }
 
 #soulignepetit{
@@ -89,3 +89,44 @@ em{
 .card-text-benef{
     color: orange;
 }
+
+/*CSS Footer*/
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.container-fluidf{
+    overflow:hidden; 
+    background:#262626 ;
+    color: #627482 ;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: #989c9e !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta property="og:title" content="Cineflix" />
+    <meta
+      property="og:description"
+      content="Site de streaming avec toute sortie de films, dont les films les plus en tendances, films d'action"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.cineflix.fr/" />
+    <meta property="og:image" content="img/logo_cineflix.jpg" />
+    <meta property="og:site_name" content="Cineflix" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta
+      name="description"
+      content="Site de streaming avec toute sortie de films, dont les films les plus en tendances, films d'action"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinéflix | Action</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="action.css" />
+    <link
+      rel="shortcut icon"
+      href="img/logo_cineflix.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img id="logo_cineflix" src="img/logo_cineflix.jpg" alt="Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inscrip.html">Inscription</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Différents genres
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="noel.html">Noel</a></li>
+                  <li>
+                    <a class="dropdown-item" href="science_fi.html"
+                      >Science-Fiction</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="series.html">Series</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="anime.html">Anime</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="drame.html">Drame</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero-action">
+        <div class="container-fluid">
+          <div class="row text-center justify-content-center pt-5">
+            <div class="col-12 col-sm-9 col-md-5 blur">
+              <h1>Films d'actions</h1>
+              <p>
+                Les films d’action offrent des scènes explosives, des poursuites
+                haletantes et des combats intenses, où héros et héroïnes bravent
+                tous les dangers. 🚗💥👊🔥
+              </p>
+            </div>
+            <!-- Fin div col 1 (titre & description) -->
+            <div class="col-12" style="padding-top: 40vh">
+              <a href="inscrip.html">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-accueil"
+                  style="
+                    --bs-btn-padding-y: 1rem;
+                    --bs-btn-padding-x: 1.3rem;
+                    --bs-btn-font-size: 0.75rem;
+                  "
+                >
+                  Je m'abonne
+                </button>
+              </a>
+            </div>
+            <!-- Fin div col 2 (bouton) -->
+          </div>
+          <!-- Fin div row -->
+        </div>
+        <!-- Fin div container -->
+      </section>
+      <section id="2-section">
+        <div class="container-fluid">
+          <div class="row text-center justify-content-center pt-5">
+            <div class="col-12">
+              <h2>Avantages de notre plateforme</h2>
+            </div>
+            <!-- Fin div col 1 (titre) -->
+            <div class="col-12 col-sm-9 col-md-6 pt-5">
+              <p>
+                <strong>Découvrez Cinéflix</strong>, votre destination ultime
+                pour le streaming de films ! Avec un
+                <strong>large catalogue</strong> qui couvre tous les genres, des
+                classiques intemporels aux
+                <strong>dernières nouveautés</strong>, profitez d'une expérience
+                cinématographique sans compromis. Nous offrons une qualité
+                d'image exceptionnelle en <strong>HD et 4K</strong>, le tout
+                dans un environnement <strong>sans publicités</strong> pour une
+                immersion totale. Trouvez votre prochain film préféré dès
+                maintenant, et vivez chaque instant comme au cinéma, directement
+                depuis votre écran.
+              </p>
+            </div>
+            <!-- Fin div col 2 -->
+          </div>
+          <!-- Fin div row -->
+        </div>
+        <!-- Fin div container -->
+      </section>
+      <div class="border-bot pt-5"></div>
+      <section>
+        <div class="container-fluid">
+          <div class="row text-center justify-content-center column-gap-5">
+            <div class="col-12 p-5">
+              <h2>Les films en vedettes</h2>
+            </div>
+            <div class="col-12 col-xxl-3 d-flex justify-content-center p-5">
+              <div class="movie">
+                <div class="prime"></div>
+                <div class="front">
+                  <img src="img/blackpanther.jpg" alt="" class="cover" />
+                </div>
+
+                <div class="back">
+                  <div class="trailer" id="player1"></div>
+
+                  <div class="title">
+                    <h3><strong>Black Panther</strong></h3>
+                  </div>
+
+                  <div class="description">
+                    <p>
+                      <strong>Black Panther</strong> suit T'Challa, roi du
+                      Wakanda, protégeant son royaume des menaces internes et
+                      externes.
+                    </p>
+                  </div>
+                </div>
+                <div class="background"></div>
+              </div>
+            </div>
+            <div class="col-12 col-xxl-3 d-flex justify-content-center p-5">
+              <div class="movie">
+                <div class="prime"></div>
+                <div class="front">
+                  <img src="img/avengers_endgame.jpg" alt="" class="cover" />
+                </div>
+
+                <div class="back">
+                  <div class="trailer" id="player2"></div>
+
+                  <div class="title">
+                    <h3><strong>Avengers Endgame</strong></h3>
+                  </div>
+
+                  <div class="description">
+                    <p>
+                      <strong>Endgame</strong> suit les Avengers tentant
+                      d’inverser le claquement de Thanos pour sauver l’univers.
+                    </p>
+                  </div>
+                </div>
+                <div class="background"></div>
+              </div>
+            </div>
+            <div class="col-12 col-xxl-3 d-flex justify-content-center p-5">
+              <div class="movie">
+                <div class="prime"></div>
+                <div class="front">
+                  <img src="img/starwars.jpg" alt="" class="cover" />
+                </div>
+
+                <div class="back">
+                  <div class="trailer" id="player3"></div>
+
+                  <div class="title text-center">
+                    <h3><strong>Starwars</strong></h3>
+                  </div>
+
+                  <div class="description">
+                    <p>
+                      <strong>Star Wars</strong>: L'Ascension de Skywalker
+                      conclut la saga avec Rey affrontant Palpatine, révélant
+                      ses origines et sauvant la galaxie.
+                    </p>
+                  </div>
+                </div>
+                <div class="background"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-bot pt-5"></div>
+      <section>
+        <div class="container-fluid">
+          <div class="row text-center justify-content-center">
+            <div class="col-12 pt-5">
+              <h2>Nos abonnements disponibles</h2>
+            </div>
+            <div class="col-12 col-sm-4 col-md-3 pt-5">
+              <div class="card essentiel">
+                <div class="card-body">
+                  <h5 class="card-title text-shadow">Essentiel</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Prix d'abonnement : 6€</li>
+                  <li class="list-group-item">Accès limité</li>
+                  <li class="list-group-item">Qualité HD</li>
+                  <li class="list-group-item">1 écran</li>
+                </ul>
+                <div class="card-body">
+                  <a href="inscrip.html" class="btn btn-primary"
+                    >Choisir cette offre</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Fin col 1 -->
+            <div class="col-12 col-sm-4 col-md-3 pt-5">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-shadow">Standard</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Prix d'abonnement : 12€</li>
+                  <li class="list-group-item">Catalogue étendu</li>
+                  <li class="list-group-item">Full HD</li>
+                  <li class="list-group-item">2 écrans</li>
+                </ul>
+                <div class="card-body">
+                  <a href="inscrip.html" class="btn btn-primary"
+                    >Choisir cette offre</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Fin col 2  -->
+            <div class="col-12 col-sm-4 col-md-3 pt-5">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-shadow">Premium</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Prix d'abonnement : 20€</li>
+                  <li class="list-group-item">Catalogue complet</li>
+                  <li class="list-group-item">4K</li>
+                  <li class="list-group-item">4 écrans</li>
+                </ul>
+                <div class="card-body">
+                  <a href="inscrip.html" class="btn btn-primary"
+                    >Choisir cette offre</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Fin col 3 -->
+          </div>
+          <!-- Fin div row -->
+        </div>
+        <!-- Fin div container -->
+      </section>
+      <div class="border-bot pt-5"></div>
+
+      <section>
+        <div class="container-fluid">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 p-5">
+              <h2>Les retours sur cinéflix</h2>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <div class="card-header">Avis</div>
+
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Excellente plateforme, vaste catalogue, qualité HD/4K
+                      impeccable et zéro pub. Une expérience cinématographique
+                      immersive à domicile !
+                    </p>
+                    <footer class="blockquote-footer">
+                      Kylian Mbappe
+                      <cite title="Source Title">2024</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <div class="card-header">Avis</div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Super service, choix varié, interface fluide et sans pub.
+                      Idéal pour des soirées cinéma relaxantes à la maison entre
+                      amis ou famille !
+                    </p>
+                    <footer class="blockquote-footer">
+                      Macron
+                      <cite title="Source Title">2024</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card">
+                <div class="card-header">Avis</div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Catalogue impressionnant, streaming rapide et qualité top.
+                      Parfait pour les amateurs de films sans interruption,
+                      confortablement installés chez soi !
+                    </p>
+                    <footer class="blockquote-footer">
+                      Théo Barcola
+                      <cite title="Source Title">2023</cite>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-bot pt-5"></div>
+      <section>
+        <div class="container-fluid">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 p-5">
+              <h2>Les différentes genres disponibles sur cinéflix</h2>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 tuile">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="noel.html">
+                      <img
+                        src="img/noel.jpg"
+                        class="d-block w-100"
+                        alt="Genre Noel"
+                      />
+                    </a>
+                    <div class="carousel-caption d-none d-md-block blur">
+                      <h5>Noel</h5>
+                      <p>Genre de films Noel</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="science_fi.html">
+                      <img
+                        src="img/science-fiction.jpg"
+                        class="d-block w-100"
+                        alt="Genre Science-Fiction"
+                      />
+                    </a>
+                    <div class="carousel-caption d-none d-md-block blur">
+                      <h5>Science-Fiction</h5>
+                      <p>Genre de films Science-Fiction</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="anime.html">
+                      <img
+                        src="img/anime.jpg"
+                        class="d-block w-100"
+                        alt="Genre Anime"
+                      />
+                    </a>
+                    <div class="carousel-caption d-none d-md-block blur">
+                      <h5>Anime</h5>
+                      <p>Genre Anime</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="series.html">
+                      <img
+                        src="img/series.jpg"
+                        class="d-block w-100"
+                        alt="Genre Series"
+                      />
+                    </a>
+                    <div class="carousel-caption d-none d-md-block blur">
+                      <h5>Series</h5>
+                      <p>Genre Series</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#">
+                      <img
+                        src="img/drame.jpg"
+                        class="d-block w-100"
+                        alt="Genre Drame"
+                      />
+                    </a>
+                    <div class="carousel-caption d-none d-md-block blur">
+                      <h5>Drame</h5>
+                      <p>Genre Drame</p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-bot pt-5"></div>
+      <section>
+        <div class="container-fluid">
+          <div class="row justify-content-center text-center">
+            <div class="col-12 p-5">
+              <h2>Les bénéfices d'un abonnement</h2>
+              <p>
+                Les principaux avantages de prendre un abonnement chez nous sont
+                les suivants :
+              </p>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="img/wifi-off.svg" />
+                <h3>Mode hors-ligne</h3>
+                <p>
+                  Vous pourrez télécharger tous nos contenus et les regarder à
+                  volonté sans nécessité de la moindre connexion
+                </p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="img/free.svg" />
+                <h3>Aucun engagement</h3>
+                <p>
+                  Lorsque vous souscrivez chez nous, vous pourrez résilier à
+                  tout moment quand vous le souhaitez
+                </p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="img/personnalise.svg" />
+                <h3>Personnalisation</h3>
+                <p>
+                  Au fur et à mesure de l'utilisation de notre plateforme, nous
+                  vous conseillerons des films adaptés pour vous
+                </p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="img/privee.svg" />
+                <h3>Contenu exclusif</h3>
+                <p>
+                  Nous produisons des films et séries originales qui seront
+                  exclusifs à notre plateforme
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-bot pt-5"></div>
+
+      <section>
+        <div class="newsletter">
+          <div class="container">
+            <div class="row p-5">
+              <div class="col-12">
+                <div class="content">
+                  <h2>Suivre toutes les prochaines sorties</h2>
+                  <h6 class="content-tuned">
+                    Abonnez vous à notre newsletter pour suivre les actualités
+                    des nouveautés
+                  </h6>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                    <span class="input-group-btn"></span>
+                    <button class="btn-newsletter btn" type="submit">
+                      S'abonner
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluidf pb-0 mb-0 justify-content-center text-light">
+        <div class="row my-5 justify-content-center py-5">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                <h3 class="padding-left">CinéFlix</h3>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                <h6 class="mb-3 mb-lg-4 bold-text"><b>MENU</b></h6>
+                <ul class="list-unstyled">
+                  <li><a class="footer-btn" href="index.html">Accueil </a></li>
+                  <li>
+                    <a class="footer-btn" href="mentionlegale.html"
+                      >Mentions Légales</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5">
+                  <b>ADDRESS</b>
+                </h6>
+                <p class="mb-1">3 Rue du Pressoir</p>
+                <p>Isneauville</p>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end"
+              >
+                <p class="social text-muted mb-0 pb-0 bold-text">
+                  <span class="mx-2"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></span>
+                  <span class="mx-2"
+                    ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                  ></span>
+                  <span class="mx-2"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></span>
+                  <span class="mx-2"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></span>
+                </p>
+                <small class="rights padding-left"
+                  ><span>&#174;</span> CinéFlix All Rights Reserved.</small
+                >
+              </div>
+              <div
+                class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end"
+              >
+                <h6 class="mt-55 mt-2 text-muted bold-text">
+                  <b>GUERAIN Corinthe</b>
+                </h6>
+                <small>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <a
+                    class="footer-btn"
+                    href="mailto:directeurcineflixh@gmail.com"
+                    >directeurcineflixh@gmail.com</a
+                  ></small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <script>
+      var players = {};
+
+      function onYouTubeIframeAPIReady() {
+        players.player1 = new YT.Player("player1", {
+          videoId: "8RQpN5kQslw",
+        });
+
+        players.player2 = new YT.Player("player2", {
+          videoId: "wV-Q0o2OQjQ",
+        });
+
+        players.player3 = new YT.Player("player3", {
+          videoId: "Gn0WzX3OcAU",
+        });
+      }
+
+      $(".movie").on("mouseenter", function () {
+        var playerId = $(this).find("div").attr("id");
+        if (players[playerId]) {
+          players[playerId].playVideo();
+        }
+      });
+
+      $(".movie").on("mouseleave", function () {
+        var playerId = $(this).find("div").attr("id");
+        if (players[playerId]) {
+          players[playerId].pauseVideo();
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

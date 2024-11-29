@@ -81,7 +81,7 @@ em{
 }
 
 .btn-primary{
-    background-color:  #88038d;
+    background-color:  #8b2020;
 }
 
 
@@ -95,6 +95,11 @@ em{
 .card-text-benef{
     color: #ffa500;
 }
+
+.card-title{
+    color: antiquewhite
+}
+
 
 /*CSS Footer*/
 

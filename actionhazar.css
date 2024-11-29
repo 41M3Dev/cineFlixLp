@@ -1,6 +1,6 @@
 body{
     font-family: 'Agbalumo', sans-serif;
-    background: linear-gradient(20deg, yellow, blue, red); /* Dégradé avec trois couleurs et un angle de 45° */
+    background: linear-gradient(-110deg, yellow, blue, red); /* Dégradé avec trois couleurs et un angle de 45° */
 }
 
 .deuxbouton{
